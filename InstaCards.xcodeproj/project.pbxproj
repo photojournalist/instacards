@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA5151719EB181100250240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5151619EB181100250240 /* AppDelegate.swift */; };
+		FAA5151919EB181100250240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5151819EB181100250240 /* ViewController.swift */; };
+		FAA5151C19EB181100250240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA5151A19EB181100250240 /* Main.storyboard */; };
+		FAA5151E19EB181100250240 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5151D19EB181100250240 /* Images.xcassets */; };
+		FAA5152119EB181100250240 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA5151F19EB181100250240 /* LaunchScreen.xib */; };
+		FAA5152D19EB181100250240 /* InstaCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5152C19EB181100250240 /* InstaCardsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA5152719EB181100250240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA5150919EB181100250240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA5151019EB181100250240;
+			remoteInfo = InstaCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA5151119EB181100250240 /* InstaCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5151519EB181100250240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA5151619EB181100250240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA5151819EB181100250240 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA5151B19EB181100250240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA5151D19EB181100250240 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAA5152019EB181100250240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAA5152619EB181100250240 /* InstaCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5152B19EB181100250240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA5152C19EB181100250240 /* InstaCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaCardsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA5150E19EB181100250240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5152319EB181100250240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA5150819EB181100250240 = {
+			isa = PBXGroup;
+			children = (
+				FAA5151319EB181100250240 /* InstaCards */,
+				FAA5152919EB181100250240 /* InstaCardsTests */,
+				FAA5151219EB181100250240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA5151219EB181100250240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5151119EB181100250240 /* InstaCards.app */,
+				FAA5152619EB181100250240 /* InstaCardsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA5151319EB181100250240 /* InstaCards */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5151619EB181100250240 /* AppDelegate.swift */,
+				FAA5151819EB181100250240 /* ViewController.swift */,
+				FAA5151A19EB181100250240 /* Main.storyboard */,
+				FAA5151D19EB181100250240 /* Images.xcassets */,
+				FAA5151F19EB181100250240 /* LaunchScreen.xib */,
+				FAA5151419EB181100250240 /* Supporting Files */,
+			);
+			path = InstaCards;
+			sourceTree = "<group>";
+		};
+		FAA5151419EB181100250240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5151519EB181100250240 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA5152919EB181100250240 /* InstaCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5152C19EB181100250240 /* InstaCardsTests.swift */,
+				FAA5152A19EB181100250240 /* Supporting Files */,
+			);
+			path = InstaCardsTests;
+			sourceTree = "<group>";
+		};
+		FAA5152A19EB181100250240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5152B19EB181100250240 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA5151019EB181100250240 /* InstaCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5153019EB181100250240 /* Build configuration list for PBXNativeTarget "InstaCards" */;
+			buildPhases = (
+				FAA5150D19EB181100250240 /* Sources */,
+				FAA5150E19EB181100250240 /* Frameworks */,
+				FAA5150F19EB181100250240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaCards;
+			productName = InstaCards;
+			productReference = FAA5151119EB181100250240 /* InstaCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA5152519EB181100250240 /* InstaCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5153319EB181100250240 /* Build configuration list for PBXNativeTarget "InstaCardsTests" */;
+			buildPhases = (
+				FAA5152219EB181100250240 /* Sources */,
+				FAA5152319EB181100250240 /* Frameworks */,
+				FAA5152419EB181100250240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA5152819EB181100250240 /* PBXTargetDependency */,
+			);
+			name = InstaCardsTests;
+			productName = InstaCardsTests;
+			productReference = FAA5152619EB181100250240 /* InstaCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA5150919EB181100250240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Salim Madjd";
+				TargetAttributes = {
+					FAA5151019EB181100250240 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FAA5152519EB181100250240 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FAA5151019EB181100250240;
+					};
+				};
+			};
+			buildConfigurationList = FAA5150C19EB181100250240 /* Build configuration list for PBXProject "InstaCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA5150819EB181100250240;
+			productRefGroup = FAA5151219EB181100250240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA5151019EB181100250240 /* InstaCards */,
+				FAA5152519EB181100250240 /* InstaCardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA5150F19EB181100250240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5151C19EB181100250240 /* Main.storyboard in Resources */,
+				FAA5152119EB181100250240 /* LaunchScreen.xib in Resources */,
+				FAA5151E19EB181100250240 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5152419EB181100250240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA5150D19EB181100250240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5151919EB181100250240 /* ViewController.swift in Sources */,
+				FAA5151719EB181100250240 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5152219EB181100250240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5152D19EB181100250240 /* InstaCardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA5152819EB181100250240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA5151019EB181100250240 /* InstaCards */;
+			targetProxy = FAA5152719EB181100250240 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA5151A19EB181100250240 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA5151B19EB181100250240 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA5151F19EB181100250240 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA5152019EB181100250240 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA5152E19EB181100250240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA5152F19EB181100250240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA5153119EB181100250240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAA5153219EB181100250240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAA5153419EB181100250240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InstaCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaCards.app/InstaCards";
+			};
+			name = Debug;
+		};
+		FAA5153519EB181100250240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InstaCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaCards.app/InstaCards";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA5150C19EB181100250240 /* Build configuration list for PBXProject "InstaCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5152E19EB181100250240 /* Debug */,
+				FAA5152F19EB181100250240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5153019EB181100250240 /* Build configuration list for PBXNativeTarget "InstaCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5153119EB181100250240 /* Debug */,
+				FAA5153219EB181100250240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA5153319EB181100250240 /* Build configuration list for PBXNativeTarget "InstaCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5153419EB181100250240 /* Debug */,
+				FAA5153519EB181100250240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA5150919EB181100250240 /* Project object */;
+}
